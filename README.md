@@ -1,5 +1,7 @@
 # iOS source-code project guide
 
+[简体中文指南](README.zh-CN.md)
+
 A practical guide to evaluating an iOS source-code package before you build on it.
 
 Maintained by **YXC Code**, a commercial app source-code store. This is a free educational resource; it contains no paid application source. Explore the [YXC Code catalog](https://app.yxcit.com/en?utm_source=github&utm_medium=referral&utm_campaign=source_code_guide).
