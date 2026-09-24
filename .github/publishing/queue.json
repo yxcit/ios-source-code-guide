@@ -1,0 +1,58 @@
+[
+  {
+    "id": "package-inventory",
+    "title": "What belongs in a source-code delivery?",
+    "source": "package-inventory.md",
+    "publish_at": "2026-09-25T21:00:00+08:00",
+    "sha256": "ee86d8038ccd03a48c59ead30ed9f1c47334cae9da1a91a68d53b27c358f8507"
+  },
+  {
+    "id": "customization-plan",
+    "title": "Plan your first customization before changing code",
+    "source": "customization-plan.md",
+    "publish_at": "2026-09-29T21:00:00+08:00",
+    "sha256": "a4c822911650aca3ca246ae5b8930769de8032608a2c5f26b94e2f578158094e"
+  },
+  {
+    "id": "offline-data-checks",
+    "title": "Check an offline app with disposable data",
+    "source": "offline-data-checks.md",
+    "publish_at": "2026-10-02T21:00:00+08:00",
+    "sha256": "09eb9a41413cba6129c5bf86ec7e08c10296c2f5c5cb986a162afb7d9334de88"
+  },
+  {
+    "id": "demo-vs-source",
+    "title": "Compare a demo with the delivered source project",
+    "source": "demo-vs-source.md",
+    "publish_at": "2026-10-06T21:00:00+08:00",
+    "sha256": "4917a95d8f0bc663cb51286f3b7d3891b9d4428fd04e4d3ab09041ab39a0aeff"
+  },
+  {
+    "id": "support-request",
+    "title": "Write a source-package support request that can be reproduced",
+    "source": "support-request.md",
+    "publish_at": "2026-10-09T21:00:00+08:00",
+    "sha256": "04945fd097f42b055e92ddd2ad185b07d99f5bae4cbfb0eff7f9c7a3889a2ca1"
+  },
+  {
+    "id": "update-comparison",
+    "title": "Review a source-package update without losing your changes",
+    "source": "update-comparison.md",
+    "publish_at": "2026-10-13T21:00:00+08:00",
+    "sha256": "34e189f615ec8d6ef8e22d2b5d4cd3353d82173273ed73020052202fcb50d7e1"
+  },
+  {
+    "id": "localization-review",
+    "title": "Review localized product copy against actual functionality",
+    "source": "localization-review.md",
+    "publish_at": "2026-10-16T21:00:00+08:00",
+    "sha256": "7f1e25905212cb73241893c3a9b002269654f912a34de52cf552a2930d3b47af"
+  },
+  {
+    "id": "delivery-checklist",
+    "title": "Keep a delivery checklist alongside your purchase",
+    "source": "delivery-checklist.md",
+    "publish_at": "2026-10-20T21:00:00+08:00",
+    "sha256": "46f9df04bb27997079fcc060993bd8e4718453c79d3f71efd51bd23bf89fafc0"
+  }
+]

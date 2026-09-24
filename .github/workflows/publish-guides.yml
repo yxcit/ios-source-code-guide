@@ -1,0 +1,32 @@
+name: Publish scheduled guides
+on:
+  schedule:
+    - cron: '0 13 * * 2,5'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/**'
+permissions:
+  contents: write
+concurrency:
+  group: scheduled-guides
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'yxcit/ios-source-code-guide' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: python3 .github/publishing/publish.py
+      - name: Commit and publish due guide
+        run: |
+          git add -- README.md articles/
+          if git diff --cached --quiet; then
+            echo 'No guide due for publication.'
+            exit 0
+          fi
+          git -c user.name='YXC Code' -c user.email='yxcit@users.noreply.github.com' commit -m 'Publish scheduled source-code guide'
+          git push origin HEAD:main
