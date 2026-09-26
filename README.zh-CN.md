@@ -24,6 +24,10 @@
 
 写清工程版本、Xcode 和系统版本、设备或模拟器型号、最短复现步骤、预期和实际结果。日志只保留必要片段，移除令牌、密码和用户信息。保留原始工程用于对照，能帮助区分交付问题和后续修改问题。
 
+## 专题清单
+
+- [收到 iOS 源码后，先核对这份交付清单](articles/package-inventory.zh-CN.md)
+
 ## 关于这份指南
 
 由 [YXC Code 源码商城](https://app.yxcit.com/zh?utm_source=github&utm_medium=referral&utm_campaign=source_code_guide_zh)维护，存在商业关联。商城提供付费 iOS 源码项目，具体交付及许可以各商品说明为准。本指南免费，文案经 AI 辅助整理；仓库 MIT 许可仅适用于本仓库原创文档，不适用于商城出售的源码。
