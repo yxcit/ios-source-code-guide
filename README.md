@@ -46,6 +46,7 @@ Copy [EVALUATION.md](EVALUATION.md) for each package. Record observations rather
 - [A clean first-build checklist](articles/first-build-checklist.md)
 - [What belongs in a source-code delivery?](articles/package-inventory.md)
 - [Plan your first customization before changing code](articles/customization-plan.md)
+- [Check an offline app with disposable data](articles/offline-data-checks.md)
 <!-- guides:end -->
 
 ## Contributing
