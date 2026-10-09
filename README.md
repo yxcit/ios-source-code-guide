@@ -47,6 +47,7 @@ Copy [EVALUATION.md](EVALUATION.md) for each package. Record observations rather
 - [What belongs in a source-code delivery?](articles/package-inventory.md)
 - [Plan your first customization before changing code](articles/customization-plan.md)
 - [Check an offline app with disposable data](articles/offline-data-checks.md)
+- [Compare a demo with the delivered source project](articles/demo-vs-source.md)
 <!-- guides:end -->
 
 ## Contributing
