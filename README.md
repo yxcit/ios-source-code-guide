@@ -48,6 +48,7 @@ Copy [EVALUATION.md](EVALUATION.md) for each package. Record observations rather
 - [Plan your first customization before changing code](articles/customization-plan.md)
 - [Check an offline app with disposable data](articles/offline-data-checks.md)
 - [Compare a demo with the delivered source project](articles/demo-vs-source.md)
+- [Write a source-package support request that can be reproduced](articles/support-request.md)
 <!-- guides:end -->
 
 ## Contributing
