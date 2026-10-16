@@ -49,6 +49,7 @@ Copy [EVALUATION.md](EVALUATION.md) for each package. Record observations rather
 - [Check an offline app with disposable data](articles/offline-data-checks.md)
 - [Compare a demo with the delivered source project](articles/demo-vs-source.md)
 - [Write a source-package support request that can be reproduced](articles/support-request.md)
+- [Review a source-package update without losing your changes](articles/update-comparison.md)
 <!-- guides:end -->
 
 ## Contributing
